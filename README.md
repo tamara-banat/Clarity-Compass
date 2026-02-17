@@ -1,46 +1,75 @@
-<<<<<<< HEAD
-# Cognitive Load AI
+# Clarity Compass
 
-A living cognitive intelligence system that observes, predicts, and evolves with your cognitive rhythm.
+## A Cognitive Intelligence System for Adaptive Self-Optimization
+
+Clarity Compass observes behavioral signals, models cognitive load, predicts instability, and evolves with your cognitive rhythm.
+
+It is not a productivity tracker; it is a cognitive modeling engine.
+
+---
+
+## Core Concept
+
+Clarity Compass translates daily behavioral inputs into:
+
+* Load trajectories
+* Stability probabilities
+* Burnout risk forecasts
+* Behavioral archetype detection
+* Growth evolution tracking
+
+---
 
 ## Tech Stack
 
-- React 18 + TypeScript
-- Vite
-- Tailwind CSS
-- shadcn/ui
-- Framer Motion
-- Recharts
-- Spline (ambient 3D)
+* **React 18 + TypeScript**
+* **Vite**
+* **Tailwind CSS**
+* **shadcn/ui**
+* **Framer Motion**
+* **Recharts**
+* **Spline (3D rendering)**
+* Optional **local LLM integration (Ollama)**
+
+---
+
+## Key Features
+
+* **Cognitive Arc**: Daily system state → question → resolution
+* **Load & Stability Modeling**: Real-time cognitive load computation
+* **Risk Forecasting**: Burnout, instability, and recovery deficit probabilities
+* **Cognitive DNA**: Reactivity index, sleep sensitivity, cognitive age
+* **Archetype Detection**: Behavioral signature identification
+* **Simulation Lab**: Project future cognitive load trajectories
+* **Cognitive Coach**: Algorithmic + optional local LLM intelligence
+* **Evolution Engine**: Five-level growth tracking
+* **Correlation Matrix**: Cross-factor behavioral analysis
+* **Decision Simulator**: Behavioral adjustment projections
+
+---
+
+## Data & Privacy
+
+All data is stored locally via **browser localStorage**.
+
+* No accounts
+* No tracking
+* No external APIs required
+* Fully deletable
+
+---
 
 ## Getting Started
 
-```sh
+```bash
 npm install
 npm run dev
 ```
 
-## Features
-
-- **Cognitive Arc**: Daily system state, question, and resolution
-- **Load & Stability Tracking**: Real-time cognitive load computation
-- **Risk Forecasting**: Burnout, instability, and recovery deficit probabilities
-- **Cognitive DNA**: Reactivity index, sleep sensitivity, cognitive age
-- **Archetype Detection**: Behavioral signature identification
-- **Simulation Lab**: Project future load trajectories
-- **Cognitive Coach**: Algorithmic + optional local LLM (Ollama) intelligence
-- **Evolution System**: Growth tracking through 5 levels
-- **Experiments**: 7-day behavioral trials
-- **Correlation Matrix**: Cross-factor analysis
-- **Decision Simulator**: Behavioral adjustment projections
-
-## Data
-
-All data is stored locally in the browser via localStorage. No accounts, no tracking, no external APIs required. Delete anytime from Settings.
+---
 
 ## License
 
 MIT
-=======
-# Clarity-Compass
->>>>>>> 292fea6a0b1da8aa865cc055b382a89c5de317b4
+
+
