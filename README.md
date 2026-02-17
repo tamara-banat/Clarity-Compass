@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cognitive Load AI
 
 A living cognitive intelligence system that observes, predicts, and evolves with your cognitive rhythm.
@@ -40,3 +41,6 @@ All data is stored locally in the browser via localStorage. No accounts, no trac
 ## License
 
 MIT
+=======
+# Clarity-Compass
+>>>>>>> 292fea6a0b1da8aa865cc055b382a89c5de317b4
