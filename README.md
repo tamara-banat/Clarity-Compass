@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Clarity Compass
 
 ## A Cognitive Intelligence System for Adaptive Self-Optimization
@@ -7,7 +7,7 @@ Clarity Compass observes behavioral signals, models cognitive load, predicts ins
 
 It is not a productivity tracker; it is a cognitive modeling engine.
 
----
+
 
 ## Core Concept
 
@@ -19,18 +19,17 @@ Clarity Compass translates daily behavioral inputs into:
 * Behavioral archetype detection
 * Growth evolution tracking
 
----
-=======
+
+
 Clarity Compass
 A Cognitive Intelligence System for Adaptive Self-Optimization
 
 Clarity Compass is a living cognitive intelligence platform that observes behavioral signals, models cognitive load, predicts instability, and evolves alongside the user’s mental rhythm.
->>>>>>> 61c12069e9d7ffb90666a072463fbf2f49f0995a
+
 
 It is not a productivity tracker.
 It is a cognitive modeling engine.
 
-<<<<<<< HEAD
 * **React 18 + TypeScript**
 * **Vite**
 * **Tailwind CSS**
@@ -40,7 +39,7 @@ It is a cognitive modeling engine.
 * **Spline (3D rendering)**
 * Optional **local LLM integration (Ollama)**
 
----
+
 
 ## Key Features
 
@@ -55,7 +54,7 @@ It is a cognitive modeling engine.
 * **Correlation Matrix**: Cross-factor behavioral analysis
 * **Decision Simulator**: Behavioral adjustment projections
 
----
+
 
 ## Data & Privacy
 
@@ -66,17 +65,11 @@ All data is stored locally via **browser localStorage**.
 * No external APIs required
 * Fully deletable
 
----
-=======
-Core Concept
->>>>>>> 61c12069e9d7ffb90666a072463fbf2f49f0995a
 
 Your cognitive state is dynamic.
 Clarity Compass translates daily behavioral inputs into:
 
-<<<<<<< HEAD
-```bash
-=======
+
 Load trajectories
 
 Stability probabilities
@@ -168,20 +161,13 @@ Fully deletable
 Privacy-first by design.
 
 Getting Started
->>>>>>> 61c12069e9d7ffb90666a072463fbf2f49f0995a
+
 npm install
 npm run dev
-
-<<<<<<< HEAD
----
 
 ## License
 
 MIT
 
 
-=======
-License
 
-MIT
->>>>>>> 61c12069e9d7ffb90666a072463fbf2f49f0995a
