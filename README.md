@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Clarity Compass
 
 ## A Cognitive Intelligence System for Adaptive Self-Optimization
@@ -19,9 +20,17 @@ Clarity Compass translates daily behavioral inputs into:
 * Growth evolution tracking
 
 ---
+=======
+Clarity Compass
+A Cognitive Intelligence System for Adaptive Self-Optimization
 
-## Tech Stack
+Clarity Compass is a living cognitive intelligence platform that observes behavioral signals, models cognitive load, predicts instability, and evolves alongside the user’s mental rhythm.
+>>>>>>> 61c12069e9d7ffb90666a072463fbf2f49f0995a
 
+It is not a productivity tracker.
+It is a cognitive modeling engine.
+
+<<<<<<< HEAD
 * **React 18 + TypeScript**
 * **Vite**
 * **Tailwind CSS**
@@ -58,14 +67,112 @@ All data is stored locally via **browser localStorage**.
 * Fully deletable
 
 ---
+=======
+Core Concept
+>>>>>>> 61c12069e9d7ffb90666a072463fbf2f49f0995a
 
-## Getting Started
+Your cognitive state is dynamic.
+Clarity Compass translates daily behavioral inputs into:
 
+<<<<<<< HEAD
 ```bash
+=======
+Load trajectories
+
+Stability probabilities
+
+Burnout risk forecasts
+
+Behavioral archetype detection
+
+Growth evolution tracking
+
+It transforms subjective mental states into measurable cognitive intelligence.
+
+Tech Stack
+
+React 18 + TypeScript
+
+Vite
+
+Tailwind CSS
+
+shadcn/ui
+
+Framer Motion
+
+Recharts
+
+Spline (ambient 3D rendering)
+
+Optional local LLM integration (Ollama)
+
+Key Systems
+
+Cognitive Arc
+Daily system state → reflective question → adaptive resolution
+
+Load & Stability Modeling
+Real-time cognitive load computation with recovery deficit analysis
+
+Risk Forecasting
+Probabilistic modeling of:
+
+Burnout risk
+
+Instability likelihood
+
+Cognitive depletion curves
+
+Cognitive DNA
+Persistent behavioral signature including:
+
+Reactivity Index
+
+Sleep Sensitivity
+
+Cognitive Age
+
+Volatility Profile
+
+Archetype Detection
+Behavioral signature clustering to identify dominant cognitive patterns
+
+Simulation Lab
+Project future cognitive trajectories under different stress inputs
+
+Cognitive Coach
+Algorithmic intelligence layer with optional local LLM reasoning
+
+Evolution Engine
+Five-level growth system tracking structural cognitive adaptation
+
+Correlation Matrix
+Cross-factor behavioral dependency mapping
+
+Decision Simulator
+Predictive modeling of behavioral adjustment outcomes
+
+Data & Privacy
+
+All data is stored locally via browser localStorage.
+
+No accounts
+
+No tracking
+
+No external API dependency
+
+Fully deletable
+
+Privacy-first by design.
+
+Getting Started
+>>>>>>> 61c12069e9d7ffb90666a072463fbf2f49f0995a
 npm install
 npm run dev
-```
 
+<<<<<<< HEAD
 ---
 
 ## License
@@ -73,3 +180,8 @@ npm run dev
 MIT
 
 
+=======
+License
+
+MIT
+>>>>>>> 61c12069e9d7ffb90666a072463fbf2f49f0995a
