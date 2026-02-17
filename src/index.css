@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&display=swap');
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    --foreground: 220 15% 18%;
+
+    --card: 40 30% 99%;
+    --card-foreground: 220 15% 18%;
+
+    --popover: 40 30% 99%;
+    --popover-foreground: 220 15% 18%;
+
+    --primary: 155 30% 42%;
+    --primary-foreground: 40 33% 97%;
+
+    --secondary: 155 15% 92%;
+    --secondary-foreground: 155 25% 30%;
+
+    --muted: 40 12% 92%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 35 55% 55%;
+    --accent-foreground: 35 60% 15%;
+
+    --destructive: 0 40% 55%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 155 30% 42%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 40 20% 96%;
+    --sidebar-foreground: 220 15% 25%;
+    --sidebar-primary: 155 30% 42%;
+    --sidebar-primary-foreground: 40 33% 97%;
+    --sidebar-accent: 155 15% 92%;
+    --sidebar-accent-foreground: 155 25% 30%;
+    --sidebar-border: 40 15% 88%;
+    --sidebar-ring: 155 30% 42%;
+
+    /* Custom tokens */
+    --sage: 155 30% 42%;
+    --sage-light: 155 25% 85%;
+    --sage-muted: 155 15% 92%;
+    --amber: 35 55% 55%;
+    --amber-light: 35 45% 88%;
+    --warm-gray: 40 10% 60%;
+    --cream: 40 33% 97%;
+    --chart-line: 155 30% 55%;
+    --chart-area: 155 25% 85%;
+    --load-low: 155 35% 50%;
+    --load-moderate: 35 55% 55%;
+    --load-high: 15 45% 55%;
+
+    /* New intelligence tokens */
+    --glow: 155 40% 50%;
+    --glass: 40 30% 99% / 0.7;
+    --glass-border: 40 15% 88% / 0.5;
+    --neural-bg: 155 20% 95%;
+    --teal: 175 40% 45%;
+    --teal-glow: 175 50% 60%;
+    --confidence: 210 40% 55%;
+    --elasticity: 280 35% 55%;
+  }
+
+  .dark {
+    --background: 222 30% 8%;
+    --foreground: 210 20% 90%;
+    --card: 222 25% 11%;
+    --card-foreground: 210 20% 90%;
+    --popover: 222 25% 11%;
+    --popover-foreground: 210 20% 90%;
+    --primary: 175 50% 45%;
+    --primary-foreground: 222 30% 8%;
+    --secondary: 175 20% 15%;
+    --secondary-foreground: 175 30% 75%;
+    --muted: 222 15% 15%;
+    --muted-foreground: 220 15% 55%;
+    --accent: 35 45% 50%;
+    --accent-foreground: 35 40% 90%;
+    --destructive: 0 40% 45%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 222 15% 18%;
+    --input: 222 15% 18%;
+    --ring: 175 50% 45%;
+    --sidebar-background: 222 30% 8%;
+    --sidebar-foreground: 210 15% 85%;
+    --sidebar-primary: 175 50% 45%;
+    --sidebar-primary-foreground: 222 30% 8%;
+    --sidebar-accent: 175 15% 15%;
+    --sidebar-accent-foreground: 175 20% 75%;
+    --sidebar-border: 222 15% 18%;
+    --sidebar-ring: 175 50% 45%;
+    --sage: 175 50% 45%;
+    --sage-light: 175 20% 18%;
+    --sage-muted: 175 10% 12%;
+    --amber: 35 45% 50%;
+    --amber-light: 35 30% 18%;
+    --warm-gray: 220 8% 45%;
+    --cream: 222 30% 8%;
+    --chart-line: 175 50% 50%;
+    --chart-area: 175 20% 15%;
+    --load-low: 175 45% 40%;
+    --load-moderate: 35 45% 50%;
+    --load-high: 15 40% 50%;
+    --glow: 175 60% 45%;
+    --glass: 222 25% 11% / 0.7;
+    --glass-border: 222 15% 22% / 0.5;
+    --neural-bg: 222 25% 10%;
+    --teal: 175 50% 45%;
+    --teal-glow: 175 60% 55%;
+    --confidence: 210 50% 55%;
+    --elasticity: 280 40% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Fraunces', serif;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-card/70 backdrop-blur-xl border border-border/50;
+  }
+
+  .neural-glow {
+    box-shadow: 0 0 40px -10px hsl(var(--glow) / 0.15),
+                0 0 80px -20px hsl(var(--glow) / 0.08);
+  }
+
+  .dial-glow {
+    filter: drop-shadow(0 0 20px hsl(var(--glow) / 0.3))
+            drop-shadow(0 0 60px hsl(var(--glow) / 0.1));
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--teal-glow)));
+  }
+}
